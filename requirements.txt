@@ -4,3 +4,4 @@ faiss-cpu
 numpy
 line-bot-sdk
 requests
+gunicorn
