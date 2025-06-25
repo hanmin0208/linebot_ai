@@ -1,0 +1,6 @@
+flask
+openai
+faiss-cpu
+numpy
+line-bot-sdk
+requests
