@@ -3,7 +3,7 @@ from linebot import LineBotApi, WebhookHandler
 from linebot.exceptions import InvalidSignatureError
 from linebot.models import MessageEvent, TextMessage, TextSendMessage
 import openai
-from linebot_ai.rag_search_faiss import semantic_search, build_or_update_faiss_index
+from rag_search_faiss import semantic_search, build_or_update_faiss_index
 import os
 import csv
 from datetime import datetime, timedelta
